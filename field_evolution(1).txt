@@ -1,0 +1,27 @@
+Numerical Solution of the Radial Klein-Gordon Equation in the 5D CWD Wormhole Geometry
+--------------------------------------------------------------------------------------
+
+Parameters:
+- Warp factor (k)       = 2.5e-21 m^-1
+- Throat radius (r0)    = 1.616e-35 m
+- Angular frequency (ω) = 1.0e-20 s^-1
+- Scalar field mass (m) = 1.0e-35 kg
+- Scalar amplitude φ0   = 1.0e-10 kg^(1/2) m^-1
+
+Differential Equation System:
+du0/dr = u1
+du1/dr = -[(2/r) - (r0^2 / (r^3 * (1 - r0^2/r)))] * u1 - (ω^2 - m^2) * u0
+
+Initial Conditions:
+- u0(r0) = 1
+- u1(r0) = 0
+
+Integration Range:
+- From r = r0 * 1.1 = 1.7776e-35 m
+- To   r = 1.0e20 m
+
+Results at r = 1.0e19 m:
+- Field solution u(r) = 9.9822e-01
+- Energy density ρφ   = 4.9822e-61 kg m^-3
+
+All results computed in SI units.
