@@ -1,4 +1,3 @@
-# cwd-model-cosmology
 # cwd-model/cosmology
 
 ## Overview
