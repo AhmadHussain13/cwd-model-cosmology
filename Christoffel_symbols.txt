@@ -1,0 +1,11 @@
+Non-zero Christoffel symbols:
+Gamma^r_rr = -r_0**2/(r*(r**2 - r_0**2))
+Gamma^r_thetatheta = -r + r_0**2/r
+Gamma^r_phiphi = (-r**2 + r_0**2)*sin(theta)**2/r
+Gamma^theta_rtheta = 1/r
+Gamma^theta_thetar = 1/r
+Gamma^theta_phiphi = -sin(2*theta)/2
+Gamma^phi_rphi = 1/r
+Gamma^phi_thetaphi = 1/tan(theta)
+Gamma^phi_phir = 1/r
+Gamma^phi_phitheta = 1/tan(theta)
